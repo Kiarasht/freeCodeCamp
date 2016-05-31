@@ -1,0 +1,30 @@
+.global-img {
+    border: 5px solid;
+}
+
+.img-style {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
+
+.port-img {
+    border-radius: 25px;
+    width: 90%;
+    height: auto;
+}
+
+.port-img2 {
+    border-radius: 25px;
+    width: 91%;
+    height: auto;
+}
+
+.my-icon {
+    width: 20px;
+    height: auto;
+}
+
+section {
+    padding-top:40px;
+}
