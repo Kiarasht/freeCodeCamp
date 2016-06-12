@@ -1,0 +1,66 @@
+.global-img {
+    border: 5px solid #31708f;
+}
+
+.img-style {
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+}
+
+body {
+    padding-top: 100px;
+    background-color: #31708f;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 100%;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    border: 0;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.btn-custom {
+    background-color: hsl(199, 100%, 40%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#008bcc", endColorstr="#008bcc");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#008bcc), to(#008bcc));
+    background-image: -moz-linear-gradient(top, #008bcc, #008bcc);
+    background-image: -ms-linear-gradient(top, #008bcc, #008bcc);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008bcc), color-stop(100%, #008bcc));
+    background-image: -webkit-linear-gradient(top, #008bcc, #008bcc);
+    background-image: -o-linear-gradient(top, #008bcc, #008bcc);
+    background-image: linear-gradient(#008bcc, #008bcc);
+    border-color: #008bcc #008bcc hsl(199, 100%, 40%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+}
